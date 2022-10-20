@@ -1,0 +1,12 @@
+ {
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"title": { "text": "Global Plastics Production" },
+"data": {
+ "url": "global-plastics-production.csv"
+},
+"mark": "bar",
+"encoding": {
+"x": { "field": "Year", "type": "nominal" },
+"y": { "field": "Global plastics production (million tonnes)", "type": "quantitative" }
+}
+}
